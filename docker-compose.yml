@@ -1,0 +1,14 @@
+name: ศิวากร พิมพะนิตย์-badge
+
+services:
+  mybadge:
+    build: .
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+
+  friend:
+    image: วรปรัชญ์ วรปัญญา
+    ports:
+      - "8081:80"
+    restart: unless-stopped

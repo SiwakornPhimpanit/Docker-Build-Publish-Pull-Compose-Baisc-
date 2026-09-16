@@ -1,0 +1,8 @@
+README.md
+REPORT.md
+screenshots/
+.git
+.gitignore
+.env
+.env.*
+docker-compose.yml
